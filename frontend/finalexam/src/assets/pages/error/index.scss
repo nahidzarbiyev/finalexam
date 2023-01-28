@@ -1,0 +1,33 @@
+.error{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    gap: 20px;
+    .icon{
+        font-size: 7rem;
+        color: #ff6b53;
+    }
+    button{
+        align-items: center;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        background-color: #ff6b53;
+        color: #fff;
+        border: #ff6b53;
+        cursor: pointer;
+    }
+    p{
+        font-size: 20px;
+
+    }
+    span{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+
+}

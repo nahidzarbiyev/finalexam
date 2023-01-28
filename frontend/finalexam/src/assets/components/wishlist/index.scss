@@ -1,0 +1,46 @@
+.wishlist{
+    max-width: 1200px ;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .card{
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        img{
+            width: 50%;
+        }
+        p{
+            font-size: 10px;
+            font-weight: bold;
+            letter-spacing: 2px;
+
+        }
+        .icon{
+            display: flex;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid #ff6b53;
+            color: #ff6b53;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+.empty{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        color: #ff6b53;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+}
+}
